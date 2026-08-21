@@ -1,5 +1,5 @@
 {
-    "name": "Dhivehigpt",
-    "description": "DhivehiGPT SDK to interact with the DhivehiGPT API using PHP and Laravel server-side applications",
+    "name": "DhivehiGPT SDK",
+    "description": "PHP / Laravel SDK to interact with the DhivehiGPT API",
     "version": "1"
 }

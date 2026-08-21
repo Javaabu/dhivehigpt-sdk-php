@@ -17,6 +17,9 @@ abstract class TestCase extends BaseTestCase
 
         $this->app['config']->set('session.serialization', 'php');
 
+        $this->app['config']->set('services.dhivehigpt', [
+            'api_key' => 'test-api-key',
+        ]);
     }
 
     protected function getPackageProviders($app)
