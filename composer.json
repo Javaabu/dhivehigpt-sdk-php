@@ -1,0 +1,49 @@
+{
+    "name": "javaabu/{your-package}",
+    "description": "{package description}",
+    "homepage": "https://github.com/Javaabu/{your-package}",
+    "license": "MIT",
+    "keywords": [
+        "javaabu",
+        "laravel",
+        "{your_package}"
+    ],
+    "authors": [
+        {
+            "name": "{author_name}",
+            "email": "{author_email}",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0 || ^12.0 || ^13.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.14",
+        "orchestra/testbench": "^9.16 || ^10.0 || ^11.0",
+        "phpunit/phpunit": "^11.5.3 || ^12.5.8 || ^13.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Javaabu\\{YourPackage}\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Javaabu\\{YourPackage}\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Javaabu\\{YourPackage}\\{YourPackage}ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
