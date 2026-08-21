@@ -1,5 +1,5 @@
 {
-    "name": "{Your Package}",
-    "description": "{package description}",
+    "name": "Dhivehigpt",
+    "description": "DhivehiGPT SDK to interact with the DhivehiGPT API using PHP and Laravel server-side applications",
     "version": "1"
 }

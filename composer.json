@@ -1,17 +1,18 @@
 {
-    "name": "javaabu/{your-package}",
-    "description": "{package description}",
-    "homepage": "https://github.com/Javaabu/{your-package}",
+    "name": "javaabu/dhivehigpt",
+    "description": "DhivehiGPT SDK to interact with the DhivehiGPT API using PHP and Laravel server-side applications",
+    "homepage": "https://github.com/Javaabu/dhivehigpt-sdk-php",
     "license": "MIT",
     "keywords": [
         "javaabu",
         "laravel",
-        "{your_package}"
+        "dhivehigpt",
+        "php"
     ],
     "authors": [
         {
-            "name": "{author_name}",
-            "email": "{author_email}",
+            "name": "DhivehiGPT",
+            "email": "support@dhivehigpt.com",
             "role": "Developer"
         }
     ],
@@ -26,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Javaabu\\{YourPackage}\\": "src/"
+            "Javaabu\\DhivehiGpt\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Javaabu\\{YourPackage}\\Tests\\": "tests/"
+            "Javaabu\\DhivehiGpt\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -40,7 +41,7 @@
         },
         "laravel": {
             "providers": [
-                "Javaabu\\{YourPackage}\\{YourPackage}ServiceProvider"
+                "DhivehiGptServiceProvider"
             ]
         }
     },

@@ -1,9 +1,9 @@
 <?php
 
-namespace Javaabu\{YourPackage}\Tests\Feature;
+namespace Javaabu\DhivehiGpt\Tests\Feature;
 
 use PHPUnit\Framework\Attributes\Test;
-use Javaabu\{YourPackage}\Tests\TestCase;
+use Javaabu\DhivehiGpt\Tests\TestCase;
 use PHPUnit\Framework\Attributes\Test;
 
 class ExampleTest extends TestCase

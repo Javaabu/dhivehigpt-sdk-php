@@ -1,10 +1,10 @@
 <?php
 
-namespace Javaabu\DhivehiGpt\Tests\TestSupport\Providers;
+namespace Javaabu\DhivehiGpt;
 
 use Illuminate\Support\ServiceProvider;
 
-class TestServiceProvider extends ServiceProvider
+class DhivehiGptServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
