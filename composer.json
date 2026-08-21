@@ -1,5 +1,5 @@
 {
-    "name": "javaabu/dhivehigpt-sdk-php",
+    "name": "javaabu/dhivehigpt-sdk",
     "description": "PHP / Laravel SDK to interact with the DhivehiGPT API",
     "homepage": "https://github.com/Javaabu/dhivehigpt-sdk-php",
     "license": "MIT",

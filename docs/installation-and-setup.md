@@ -8,7 +8,7 @@ sidebar_position: 1.2
 You can install the package via composer:
 
 ```bash
-composer require javaabu/dhivehigpt-sdk-php
+composer require javaabu/dhivehigpt-sdk
 ```
 
 ## Getting an API key

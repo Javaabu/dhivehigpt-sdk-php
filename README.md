@@ -1,9 +1,9 @@
 # DhivehiGPT PHP SDK
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/javaabu/dhivehigpt-sdk-php.svg?style=flat-square)](https://packagist.org/packages/javaabu/dhivehigpt-sdk-php)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/javaabu/dhivehigpt-sdk.svg?style=flat-square)](https://packagist.org/packages/javaabu/dhivehigpt-sdk)
 [![Test Status](../../actions/workflows/run-tests.yml/badge.svg)](../../actions/workflows/run-tests.yml)
 ![Code Coverage Badge](./.github/coverage.svg)
-[![Total Downloads](https://img.shields.io/packagist/dt/javaabu/dhivehigpt-sdk-php.svg?style=flat-square)](https://packagist.org/packages/javaabu/dhivehigpt-sdk-php)
+[![Total Downloads](https://img.shields.io/packagist/dt/javaabu/dhivehigpt-sdk.svg?style=flat-square)](https://packagist.org/packages/javaabu/dhivehigpt-sdk)
 
 A lightweight PHP / Laravel SDK for the [DhivehiGPT API](https://dhivehigpt.com/docs), covering voices, text-to-speech, subscription balance, and tasks. It has no framework dependency, so it works in plain PHP applications as well as any Laravel application from version 9 through 13. Its only dependency is [Guzzle](https://docs.guzzlephp.org), the standard PHP HTTP client — already installed in most Laravel and modern PHP projects.
 
@@ -12,7 +12,7 @@ A lightweight PHP / Laravel SDK for the [DhivehiGPT API](https://dhivehigpt.com/
 You can install the package via composer:
 
 ```bash
-composer require javaabu/dhivehigpt-sdk-php
+composer require javaabu/dhivehigpt-sdk
 ```
 
 ## Getting an API key
