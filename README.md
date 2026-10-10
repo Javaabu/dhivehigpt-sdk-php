@@ -62,11 +62,11 @@ $voices = DhivehiGpt::voices()->list();
 $audio = DhivehiGpt::tts()->generate('ދިވެހިޖީޕީޓީއަށް މަރުޙަބާ', 'hajja');
 ```
 
-See [Installation & Setup](https://docs.javaabu.com/docs/dhivehigpt-sdk-php/installation-and-setup) for the full details, including how to customize the underlying Guzzle client.
+See [Installation & Setup](https://docs.javaabu.com/dhivehigpt-sdk-php/installation-and-setup) for the full details, including how to customize the underlying Guzzle client.
 
 ## Documentation
 
-You'll find the full documentation on [https://docs.javaabu.com/docs/dhivehigpt-sdk-php](https://docs.javaabu.com/docs/dhivehigpt-sdk-php).
+You'll find the full documentation on [https://docs.javaabu.com/dhivehigpt-sdk-php](https://docs.javaabu.com/dhivehigpt-sdk-php).
 
 Find yourself stuck using the package? Found a bug? Do you have general questions or suggestions for improving this package? Feel free to create an [issue](../../issues) on GitHub, we'll try to address it as soon as possible.
 
